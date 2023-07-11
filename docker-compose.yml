@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  db:
+    image: mysql/mysql-server:8.0.20
+    container_name: ComicVerwaltung_DB
+    restart: always
+    environment:
+      MYSQL_DATABASE: ComicVerwaltung
+      MYSQL_USER: nickFury
+      MYSQL_PASSWORD: nickFury
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3308:3308"
