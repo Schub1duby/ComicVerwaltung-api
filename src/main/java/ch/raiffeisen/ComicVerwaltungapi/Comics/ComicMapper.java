@@ -29,6 +29,7 @@ public class ComicMapper implements RowMapper<Comic> {
         comic.setComicReihe(comicReihe);
         comic.setVolume(volume);
         comic.setIssue(issue);
+        comic.setSerialNumber(serialNumber);
         comic.setPublisher(publisher);
         comic.setCgcGrade(cgcGrade);
 
